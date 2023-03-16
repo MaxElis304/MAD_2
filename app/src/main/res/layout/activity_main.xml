@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/a3"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toEndOf="@+id/a2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Проверочка на шарящего mirea-шника с прик инфы ✨"
+        android:textColorHint="#00FFFFFF"
+        android:textColorLink="#392957"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:text="прислушайтесь к своему сердцу и отметьте варианты ответа, на которые пал выбор"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="мЯу ? ^_^"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/_68_434_9872_995413026_1498545967" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="106dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/istockphoto_1285465574_1024x1024" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/_68_442_9999_504736750_1498641133" />
+
+    <CheckBox
+        android:id="@+id/a1"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintEnd_toStartOf="@+id/a2"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <CheckBox
+        android:id="@+id/a2"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="383dp"
+        android:layout_height="38dp"
+        android:text="я обязательно открою окно перед тем, как сдавать отчет ассистенту с кафедры ..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a2" />
+
+    <CheckBox
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="мосит"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ааа мне эээ вполне достаточно эээ одних гласных"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="118dp"
+        android:layout_height="123dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/a20f33bd68e3c8d5f722bcc9f8f9b74b_ce_1528x1017x0x84" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="101dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/__2023_03_06__03_27_36" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="стоит ли всё же покупать тряпочку от A p p l e ?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <CheckBox
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <CheckBox
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/a6"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="168dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/_2" />
+
+    <CheckBox
+        android:id="@+id/a7"
+        android:layout_width="220dp"
+        android:layout_height="56dp"
+        android:text="конечно, ведь она всё же призвала снег на улице"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/a8"
+        android:layout_width="193dp"
+        android:layout_height="49dp"
+        android:text="нет, бери тряпочку за 169 рублей"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/a7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="100dp"
+        android:drawableTint="#3399FF"
+        android:foregroundTint="#3399FF"
+        android:onClick="goNewActivity"
+        android:text="итак"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a8"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="4dp"
+        android:drawableTint="#3399FF"
+        android:foregroundTint="#3399FF"
+        android:text="so..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
